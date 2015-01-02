@@ -14,7 +14,7 @@ The emails are property tested against the infamous rfc822 regexp ripped
 straight out of the Perl Mail::RFC822::Address module (version 0.4).
 
 The regexp does not allow comments at the end of the local part though (i.e.
-``foo(bar)@example.net``, so this functionality is disabled. Also, the emails
+``foo(bar)@example.net``), so this functionality is disabled. Also, the emails
 won't contain both a comment and a quoted part - a possible FIXME.
 
 As the emails are valid, it might happen they correspond to an existing
